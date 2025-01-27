@@ -3,8 +3,8 @@ package pg
 import (
 	"context"
 	"fmt"
-	"lib_ad1lek/pkg/db"
-	"lib_ad1lek/pkg/db/prettier"
+	"github.com/tokenoff03/lib_ad1lek/pkg/db"
+	"github.com/tokenoff03/lib_ad1lek/pkg/db/prettier"
 	"log"
 
 	"github.com/georgysavva/scany/v2/pgxscan"

@@ -1,4 +1,4 @@
-module lib_ad1lek
+module github.com/tokenoff03/lib_ad1lek
 
 go 1.22.2
 

@@ -2,8 +2,8 @@ package transaction
 
 import (
 	"context"
-	"lib_ad1lek/pkg/db"
-	"lib_ad1lek/pkg/db/pg"
+	"github.com/tokenoff03/lib_ad1lek/pkg/db"
+	"github.com/tokenoff03/lib_ad1lek/pkg/db/pg"
 
 	"github.com/jackc/pgx/v5"
 	"github.com/pkg/errors"
