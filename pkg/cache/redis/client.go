@@ -34,6 +34,10 @@ func (c *client) HGetAll(ctx context.Context, key string) (map[string]string, er
 	return c.pool.HGetAll(ctx, key).Result()
 }
 
+func (c *client) HGet(ctx context.Context, key string, field string) (string, error) {
+	return c.pool.HGet(ctx, key, field).Result()
+}
+
 func (c *client) Get(ctx context.Context, key string) (string, error) {
 	return c.pool.Get(ctx, key).Result()
 }
